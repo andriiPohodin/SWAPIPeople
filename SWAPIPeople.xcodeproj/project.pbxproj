@@ -14,6 +14,10 @@
 		182A4755256E5EA80031E052 /* SWAPIPeople.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182A4753256E5EA80031E052 /* SWAPIPeople.xcdatamodeld */; };
 		182A4757256E5EAC0031E052 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182A4756256E5EAC0031E052 /* Assets.xcassets */; };
 		182A475A256E5EAC0031E052 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A4758256E5EAC0031E052 /* LaunchScreen.storyboard */; };
+		182A4763256E5FA40031E052 /* PeopleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A4762256E5FA40031E052 /* PeopleModel.swift */; };
+		182A4766256E5FF40031E052 /* PeopleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A4765256E5FF40031E052 /* PeopleService.swift */; };
+		182A476A256E67CB0031E052 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A4768256E67CB0031E052 /* CustomTableViewCell.swift */; };
+		182A476B256E67CB0031E052 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182A4769256E67CB0031E052 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		182A4756256E5EAC0031E052 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182A4759256E5EAC0031E052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182A475B256E5EAC0031E052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182A4762256E5FA40031E052 /* PeopleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleModel.swift; sourceTree = "<group>"; };
+		182A4765256E5FF40031E052 /* PeopleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleService.swift; sourceTree = "<group>"; };
+		182A4768256E67CB0031E052 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		182A4769256E67CB0031E052 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				182A474A256E5EA80031E052 /* AppDelegate.swift */,
+				182A4768256E67CB0031E052 /* CustomTableViewCell.swift */,
+				182A4769256E67CB0031E052 /* CustomTableViewCell.xib */,
+				182A4762256E5FA40031E052 /* PeopleModel.swift */,
+				182A4765256E5FF40031E052 /* PeopleService.swift */,
 				182A474C256E5EA80031E052 /* SceneDelegate.swift */,
 				182A474E256E5EA80031E052 /* ViewController.swift */,
 				182A4750256E5EA80031E052 /* Main.storyboard */,
@@ -129,6 +141,7 @@
 			files = (
 				182A475A256E5EAC0031E052 /* LaunchScreen.storyboard in Resources */,
 				182A4757256E5EAC0031E052 /* Assets.xcassets in Resources */,
+				182A476B256E67CB0031E052 /* CustomTableViewCell.xib in Resources */,
 				182A4752256E5EA80031E052 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182A4763256E5FA40031E052 /* PeopleModel.swift in Sources */,
 				182A474F256E5EA80031E052 /* ViewController.swift in Sources */,
+				182A4766256E5FF40031E052 /* PeopleService.swift in Sources */,
+				182A476A256E67CB0031E052 /* CustomTableViewCell.swift in Sources */,
 				182A4755256E5EA80031E052 /* SWAPIPeople.xcdatamodeld in Sources */,
 				182A474B256E5EA80031E052 /* AppDelegate.swift in Sources */,
 				182A474D256E5EA80031E052 /* SceneDelegate.swift in Sources */,
